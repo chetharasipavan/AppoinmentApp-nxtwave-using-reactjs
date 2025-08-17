@@ -100,11 +100,17 @@ body {
 
 .Starred-btn {
   background-color: #ffffff;
+  transition: border-color 0.3s, color 0.3s, background-color 0.3s;
+}
+.Starred-btn:hover {
+  background-color: #8b5cf6;
+  color: #ffffff;
+  border-color: #6d47d9;
 }
 
 .filter-filled {
   background-color: #8b5cf6;
-  color: #fcf5f5;
+  color: #fcf5f5 !important;
   font-weight: 600;
 }
 @media (min-width: 768px) {
@@ -130,11 +136,11 @@ body {
     font-size: 2vw;
   }
   .Starred-btn {
-    font-size: 1vw;
+    font-size: 1.5vw;
     border-radius: 15px;
-    width: 7vw;
-    height: 5vh;
-    border-width: 1px;
+    width: 8vw;
+    height: 7vh;
+    border-width: 2px;
     color: #918fe2;
     border-color: #9897f0;
   }
